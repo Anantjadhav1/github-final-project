@@ -1,2 +1,10 @@
-theia@theia-anantjadhav2:~$ curl -s https://api.github.com/repos/Anantjadhav1/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'
-https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git
+$ curl -s https://api.github.com/repos/Anantjadhav1/mcino-Introduction-to-Git-and-GitHub
+{
+  "name": "mcino-Introduction-to-Git-and-GitHub",
+  "full_name": "Anantjadhav1/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
